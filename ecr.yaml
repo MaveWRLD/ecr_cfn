@@ -36,7 +36,7 @@ Resources:
           - Sid: AllowAccountRole
             Effect: Allow
             Principal:
-              AWS: !Sub 'arn:aws:iam::${AWS::AccountId}:user/kofi_iam_user'
+              AWS: !Sub 'arn:aws:iam::${AWS::AccountId}:user/kofi-iam-user'
             Action:
               - ecr:GetDownloadUrlForLayer
               - ecr:BatchGetImage
